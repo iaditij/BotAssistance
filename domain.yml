@@ -24,9 +24,9 @@ slots:
   person_name:
     type: text
   phone_number:
-    type: string
+    type: text
     email_address:
-    type:string
+    type: text
 
 
 actions:
@@ -37,7 +37,7 @@ actions:
 - action_joke
 - utter_ask_phone_number
 - utter_phone_number
-- utter_email_address
+- utter_ask_email_address
 - utter_bookappt
 - utter_user_response
 - utter_reschedule_appt
