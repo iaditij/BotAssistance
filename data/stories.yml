@@ -1,0 +1,50 @@
+version: "2.0"
+
+stories:
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_name
+
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+- story: name
+  steps:
+  - intent:slot{"person_name":"Atul"}
+  - action: utter_name
+  
+- story: enter_phone_number
+  steps:
+  - intent:slot{"phone_number":"858306204"}
+  - action: utter_ask_phone_number
+  
+- story:enter_email_address
+  steps:
+  - intent:slot{"email_address":"iamatul@gmail.com"}
+  - action: utter_ask_email_address
+
+- story: book_appt
+  steps:
+  - intent:book_appt
+  - action: utter_bookappt
+  
+
+- story: affirm
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+
+- story: cancel_appt
+  steps:
+  - intent: cancel_appt
+  - action: utter_cancel_appt
