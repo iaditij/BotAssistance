@@ -1,0 +1,210 @@
+#version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hi folks
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - see youu
+    - Goodbye
+    - see you later
+    - good night
+    - bye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Bye
+    - bye for now
+    - catch you later
+    - gotta go
+    - See you
+    - goodnight
+    - i'm off
+    - we'll speak soon
+
+- intent: affirm
+  examples: |
+    - yes
+    - yes for sure
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - definetly
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: Name
+  examples: |
+    - My name is Atul
+    - My name is John
+    - My name is Frank
+    - My name is Vignesh
+    - My name is Dinesh
+    - My name is Veera
+    - My name is Srini
+    - My name is Renju
+    - My name is Karthik
+    - My name is Arun
+    - My name is Jegan
+    - My name is Jagan
+    - My name is Siva
+    - My name is Gary
+    - I am Atul
+    - I'm Atul
+    - People call me Atul
+    - It's Atul
+    - Usually people call me Atul
+    - My name is Atul
+    - You can call me Atul
+    - Please call me harish
+    - Please call me Srini
+    - Please call me nathan
+    - Please call me jake
+    - Please call me ganesh
+    - Please call me siva
+    - Name name is Atul
+    - I am Atul
+    - I'm Atul
+    - Call me Renju
+    - Call me Jegan
+    - Call me Srini
+    - Call me Dinesh
+    - Call me Vignesh
+    - Call me Arun
+    - Call me Atul
+    - Call me Karthik
+    - Call me Arun
+    - I am Atul
+
+- intent: enter_phone_number
+  examples:
+    - call at 1234567890
+    - call on 9874563210
+    - mu number is  9681524070
+    - please note down  8583062054
+
+- intent: enter_email_address
+  examples:
+  - iamtual@gmail.com
+  - atul50@gmail.com
+  - iamrajesh@gmail.com
+  - iamvighnesh@gmail.com
+  - iamsrini@gmail.com
+  - srini50@gmail.com
+  - iamrenju@gmail.com
+  - iamdinesh@gmail.com
+  - callmesiva@gmail.com
+
+- intent: book_appt
+  examples:
+  -  I want to book
+  -  Book appt
+  -  Schedule appt
+  -  Schedule appointment
+  -  Need to book appt
+  -  Need to book
+  -  Need to schedule an appointment
+  -  I want to book at 4 pm friday
+  -  Can I schedule an appointment for 3 pm on wednesday?
+  -  Can I come in wednesday at 4 pm for adjustment?
+  -  I want to come in tuesday at 2 pm for adjustment?
+  -  Is 4 pm friday available?
+  -  Can I come in wednesday at 2 pm?
+ 
+- intent: reschedule_appt
+  examples:
+  - Change appointment
+  - Change appt
+  - Need to reschedule
+  - Need to change appt
+  - I want to reschedule appointment
+  - Need to reschedule appt
+  - I want to reschedule appt
+  - Can I reschedule
+  - Can I change my appointment?
+  - Can I change my appt
+  - Can I reschedule my appointment to 3 pm on wednesday instead?
+  - Reschedule
+  - I want to reschedule my appointment for friday at 4 pm
+  - I want to change my appointment to wednesday at 2 pm
+  - I need to reschedule my upcoming appt
+  - I want to reschedule my upcoming appointment
+  - reschedule
+  - reschedule appointment
+  
+- intent: cancel_appt
+  examples:
+  - Cancel
+  - Cancel appointment
+  - Cancel my appointment
+  - Cancel appt
+  - Cancel my appt
+  - Cancel the appointment
+  - I want to cancel my appt
+  
+- intent: faq/ask
+  examples:
+  - How to reschedule appointment?
+  - How to cancel appointment?
+  - How to book appointment?
+  - Is giving phone number and email address Mandatory?  
+    
